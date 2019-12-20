@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'articles#index'
+  root 'pages#home'
   resources :articles
   get 'pages/home', to: 'pages#home'
   get 'pages/about', to: 'pages#about'
